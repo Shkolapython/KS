@@ -1,0 +1,81 @@
+
+
+body {
+    font-family: sans-serif;
+}
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+       margin: 0 30px;
+    background-color: lightblue;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(12, 166, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+.product::before {
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+h1{
+  font-size: 70px;
+    color: rgb(128, 202, 236);  
+}
+.pp h3{
+    font-size: 40px;
+    color: rgb(140, 174, 255);
+    padding-left: 200px;
+
+}
+.pp p{
+    font-size: 20px;
+    display: flex;
+}
+.ga{
+    color:rgb(12, 135, 183);}
+    .gg{
+        color: rgb(47, 168, 255);
+    }
+    .go{
+        color: rgb(19, 149, 255);
+    }
+    .gp{
+        color: rgb(80, 205, 255);
+    }
+    .ga{
+    font-family: Snell Roundhand, cursive ;
+} 
+.gg{
+    font-family:cursive ;
+}
+.go{
+    font-family:cursive ;
+}
+.gp{
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(50, 180, 245);
+}
